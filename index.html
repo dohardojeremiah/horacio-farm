@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horacio Farm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fffdf5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #e0b939;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      width: 250px;
+      margin-bottom: 1rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #f8f7f3;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .info {
+      padding: 2rem 1rem;
+      background-color: #fff;
+      text-align: center;
+    }
+    .info h2 {
+      color: #b68900;
+      margin-bottom: 1rem;
+    }
+    .info p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1rem;
+      color: #444;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .cta {
+      text-align: center;
+      padding: 2rem;
+    }
+    .cta a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #e0b939;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #c89f2a;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #e0b939;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images\logohoraciofarm.jpeg" alt="Logo Horacio Farm">
+    <h1>Horacio Farm</h1>
+    <p>Pematangsiantar, Sumatera Utara</p>
+  </header>
+
+  <section class="hero">
+    <h1>Peternakan Babi Modern & Sehat</h1>
+    <p>Horacio Farm adalah wujud dari komitmen terhadap kualitas, kebersihan, dan keberlanjutan. Kami memelihara babi dengan penuh cinta, memperhatikan kesejahteraan babi, dan menciptakan standar baru untuk peternakan di Indonesia.</p>
+  </section>
+
+  <section class="info">
+    <h2>Mengapa Memilih Horacio Farm?</h2>
+    <p>Kami memulai dari 200 indukan unggul ras Landrace dengan sistem yang terbaik dan juga menjamin kebersihan dan kesehatan pada babi. Lokasi strategis di daerah Matio, Siantar — dekat kota Medan dan mudah dijangkau nasional. Didukung akses air bersih, pakan alami, dan jauh dari pemukiman, Horacio Farm siap menyuplai kebutuhan babi sehat untuk pasar lokal dan nasional.</p>
+  </section>
+
+  <section class="stock-pricing" style="padding: 2rem 1rem; background-color: #ffffff; text-align: center;">
+  <h2 style="color: #b68900; margin-bottom: 1rem;">Stok & Harga Babi</h2>
+  <div style="max-width: 800px; margin: 0 auto;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 1rem;">
+      <thead>
+        <tr style="background-color: #f8f7f3;">
+          <th style="padding: 0.8rem; border: 1px solid #ccc;">Kategori</th>
+          <th style="padding: 0.8rem; border: 1px solid #ccc;">Jumlah</th>
+          <th style="padding: 0.8rem; border: 1px solid #ccc;">Harga per Ekor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Bibit</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">300 ekor</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Rp1.800.000</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Babi Muda</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">500 ekor</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Rp2.800.000</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Babi Siap Panen</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">800 ekor</td>
+          <td style="padding: 0.8rem; border: 1px solid #ccc;">Rp5.200.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="products-services" style="padding: 2rem 1rem; background-color: #f0f0e8; text-align: center;">
+  <h2 style="color: #b68900; margin-bottom: 1rem;">Produk & Layanan</h2>
+  <div style="max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+    
+    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); width: 280px;">
+      <h3 style="color: #e0b939;">Babi Indukan Unggul</h3>
+      <p>Kami menyediakan indukan babi ras Landrace berkualitas tinggi, siap untuk breeding dan pembibitan.</p>
+    </div>
+    
+    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); width: 280px;">
+      <h3 style="color: #e0b939;">Babi Potong Sehat</h3>
+      <p>Babi potong yang sehat dan siap jual, dipelihara dengan standar kebersihan dan kesehatan ketat.</p>
+    </div>
+    
+    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); width: 280px;">
+      <h3 style="color: #e0b939;">Konsultasi Peternakan</h3>
+      <p>Layanan konsultasi profesional untuk membantu kamu mengelola peternakan babi yang sehat dan efisien.</p>
+    </div>
+    
+  </div>
+</section>
+
+  <section class="gallery">
+    <img src="images\babi1.jpg" alt="Babi lucu" />
+    <img src="images\babibesar1.jpg" alt="Babi besar" />
+    <img src="images\kandangbabi3.jpg" alt="Kandang Babi" />
+  </section>
+
+  <section class="cta">
+    <a href="https://wa.me/6282121663767" target="_blank">Hubungi via WhatsApp</a>
+    <a href="c:\Horacio Farm\images\Detail_Produk_Horacio_Farm.pdf" download>Download Brosur</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Horacio Farm. Dibuat dengan ❤️ oleh Jere & Cio.</p>
+  </footer>
+
+</body>
+</html>
